@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
        $num_rows_selected=mysqli_num_rows($result);
        if($num_rows_selected==1)
        {
-           $sameUserName=true;   
+           $sameUserName=true;   //
        }
        else
        {
